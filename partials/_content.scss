@@ -1,0 +1,15 @@
+#content-box {
+    max-width: 960px;
+    margin: 0 auto;
+    #content {
+        max-width: 600px;
+    }
+    aside {
+        width: 300px;
+        .box {
+            background-color: #ff9;
+            @include rotatie(30deg);
+        }
+    }
+    
+}

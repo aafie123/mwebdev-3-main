@@ -1,0 +1,80 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #600;
+  font-family: Verdana, sans-serif;
+}
+
+article[role="main"] {
+  float: left;
+  width: 62.5%;
+}
+
+header {
+  height: 120px;
+  background-color: #06c;
+  margin: 0 0 12px 0;
+  padding: 10px;
+}
+
+header h2 {
+  color: #6cf;
+}
+
+header #tagline {
+  color: #6cf;
+  margin: -12px 0 0 128px;
+}
+
+header #tagline.box {
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline;
+  padding: 4px 12px;
+}
+
+header li a:link, header li a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+header li a:hover {
+  color: #b3b3b3;
+}
+
+#content-box {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#content-box #content {
+  max-width: 600px;
+}
+
+#content-box aside {
+  width: 300px;
+}
+
+#content-box aside .box {
+  background-color: #ff9;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 8px;
+  border-top: 1px solid #06c;
+}
+/*# sourceMappingURL=main.css.map */

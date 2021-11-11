@@ -1,0 +1,30 @@
+header {
+    height: $headerheight;
+    background-color: $bgcolor;
+    margin: 0 0 12px 0;
+    padding: 10px;
+    h2 {
+        color: $headerkopcolor;
+    }
+    #tagline {
+        color: $headerkopcolor;
+        margin: -12px 0 0 128px;
+    }
+    #tagline.box {
+        @include rotatie(-5deg);
+    }
+    ul {
+        list-style-type: none;
+    }
+    li {
+        display: inline;
+        padding: 4px 12px;
+        a:link, a:visited {
+            text-decoration: none;
+            color: #fff;
+        }
+        a:hover {
+            color: darken(#fff, 30%);
+        }
+    }
+}
